@@ -1,0 +1,199 @@
+body {
+    color: rgb(87, 87, 87);
+    background-color:rgb(241, 241, 241);
+    font-family: 'Magra', sans-serif;
+}
+
+#heading {
+    text-align: center;
+    font-family: 'Arvo', serif;
+    margin: auto;
+    color: white;
+    background-color:rgba(250, 132, 210, 0.856);
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 3em;
+}
+
+#todos {
+    width: 30%;
+    margin-left: auto;
+    background-color: white;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 30px;
+    border: 5px solid rgb(211, 237, 238);
+}
+
+#new-todo-form {
+    border-top: 1px solid rgb(109, 109, 109);
+    padding-top: 1em;
+    margin-top: 10px;
+}
+
+#todos #new-todo #newTitle {
+    width: 80%;
+    font-size: 30px;
+    border: none;
+    font-family: 'Magra', sans-serif;
+    color: rgb(87, 87, 87);
+}
+
+#todos .todo .delete {
+    border: 2px solid lightgrey;
+    background:rgb(223, 80, 80);
+    color: white;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2em;
+}
+
+#todos .todo .delete:hover {
+    border: 2px solid lightgrey;
+    background:rgb(240, 44, 44);
+    color: white;
+    float: right;
+    padding: 5px 10px;
+    width: 30px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 2em;
+}
+
+#todos .todo .delete:active {
+    border: 2px solid lightgrey;
+    background:rgb(240, 44, 44);
+    color: white;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2em;
+}
+
+#todos .todo .check {
+    border: 2px solid lightgrey;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 2em;
+}
+#todos .todo .check:active {
+    border: 2px solid lightgrey;
+    float: left;
+    background:rgb(76, 216, 129);
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 2em;
+}
+#todos .todo .check:hover {
+    border: 2px solid lightgrey;
+    float: left;
+    background: rgb(76, 216, 129);
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 2em;
+}
+
+p:hover {
+    color: rgba(250, 132, 210, 0.856);
+}
+
+
+#todos .todo.completed {
+    color: lightgray;
+    
+}
+
+#todos .todo .bcompleted {
+    border: 2px solid lightgrey;
+    float: left;
+    background: rgb(89, 222, 240);
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 2em;
+}
+
+
+#todos .todo.completed p {
+    text-decoration: line-through;
+}
+
+#todos .todo button {
+    background: none;
+    position: relative;
+    bottom: -2px;
+}
+
+#todos .todo:last-of-type {
+    border-bottom: none;
+}
+
+#todos .todo {
+    font-size: 30px;
+    padding: 20px 0px;
+    border-bottom: 1px dotted #aaa;
+}
+
+#todos .todo p {
+    display: inline-block;
+    margin: 0px;
+    max-width: 80%;
+}
+
+button#new-submit {
+    float: left;
+    border: 2px solid lightgrey;
+    background: rgb(196, 217, 255);
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 2em;
+    padding: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+button#new-submit:active {
+    float: left;
+    border: 2px solid lightgrey;
+    background: rgb(60, 100, 175);
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 2em;
+    padding: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+button#new-submit:hover {
+    float: left;
+    border: 2px solid lightgrey;
+    background: rgb(60, 100, 175);
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 2em;
+    padding: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}

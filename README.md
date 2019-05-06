@@ -1,4 +1,4 @@
-# WebDevelopment
+# Web Development
 
 A collection of small projects created for Washington University in St. Louis CSE 204 (Web Development)
 

@@ -1,0 +1,322 @@
+body {
+  background-color: #dddddd;
+  font-family: Georgia;
+}
+
+.heading {
+  padding: .75em;
+  padding-bottom: 2.5em;
+  width: 100%;
+  background-color: #911f20;
+  color: white;
+}
+
+.heading4 {
+  padding: .75em;
+  width: 100%;
+  background-color: #911f20;
+  color: white;
+  font-size: 1.5em;
+}
+
+.heading5 {
+  padding: .75em;
+  width: 100%;
+  background-color: #3c3d3d;
+  color: white;
+}
+
+.heading2 {
+  padding: 1.5em;
+  background-color: white;
+}
+
+h1 {
+  display: inline;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Georgia;
+  letter-spacing: 2px;
+}
+
+#heading_search {
+  float: right;
+  margin-right: 15%;
+}
+
+input {
+  border: none;
+  color: #911f20;
+  font-family: Georgia;
+}
+
+@media (max-width: 1171px) {
+  #largenav, #mark, #heading_search, #bigaudience, #iconslarge, #smallfooter, #largeinfo {
+    display: none;
+  }
+  .qlinks {
+    font-size: 1em;
+  }
+  .links {
+    font-size: .75em;
+  }
+  a.button {
+    font-size: .5em;
+  }
+  #iconssmall, #smallinfo, #largefooter, #littleaudience, #togglenav {
+    visibility: visible;
+  }
+  .eventname, .eventdate, .eventloc {
+    float: left;
+  }
+  .cal {
+    display: none;
+  }
+  #content {
+    background-color: white;
+  }
+  .heading {
+    padding: .75em;
+  }
+}
+
+@media (min-width: 1171px) {
+  #togglenav, #littleaudience, #largefooter, #iconssmall, #smallinfo{
+    display: none;
+  }
+  .qlinks {
+    font-size: 1.25em;
+  }
+  .links {
+    font-size: 1em;
+  }
+  #content {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+  }
+  #logo {
+    float: left;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+#togglenav {
+    font-family: 'Roboto', sans-serif;
+}
+
+.togglinks:link, .togglinks:visited, .togglinks:hover, .togglinks:active {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#applybox {
+  margin: 1em;
+}
+
+a.button {
+    appearance: button;
+    color: initial;
+    border: none;
+    background-color: #3c3d3d;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: .75em;
+}
+
+a.button:hover {
+  color: #911f20;
+  background-color: white;
+  text-decoration: none;
+}
+
+#more {
+  border: none;
+  background-color: #3c3d3d;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#more:hover {
+  color: white;
+  background-color: #911f20;
+}
+
+.heading3 {
+  width: 100%;
+  background-color: #3c3d3d;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*.headingshift {
+  margin-left: 15%;
+  margin-right: 15%;
+}*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3c3d3d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #911f20;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+  color: #911f20;
+}
+
+.container:hover #image2 {
+  opacity: 0.7;
+}
+
+.container {
+  position: relative;
+  /*margin-top: 10px;*/
+  padding: 0px;
+}
+
+#image2 {
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgb(145,31,32);
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #911f20;
+  color: white;
+  font-family: Georgia;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#line {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#mission {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  font-family: Georgia;
+}
+
+#mission_header {
+    color: #911f20;
+}
+
+.qlinks {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  /*font-size: 1.25em;*/
+}
+
+.links:link, .links:visited, .links:hover, .links:active {
+  color: white;
+}
+
+.more:link, .more:visited, .more:hover, .more:active {
+  color: #911f20;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+}
+
+.eventname {
+  font-weight: bold;
+}
+
+.eventdate {
+  font-size: .9em;
+}
+
+.eventdate, .eventloc {
+  color: #911f20;
+}
+
+.heading6 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #911f20;
+}
+
+#line-break {
+  background-color: #911f20;
+}
+
+.icondes {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: #666666;
+}
+
+.second_audience {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+label:hover {
+  background-color: #911f20;
+  color: white;
+  padding: 1em;
+}
+
+.footer {
+  margin-left: 15%;
+  margin-right: 15%;
+}
